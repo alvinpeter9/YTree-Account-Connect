@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "test": "vitest run --environment jsdom",
-    "test:watch": "vitest --environment jsdom",
+    "test": "vitest run src --environment jsdom",
+    "test:watch": "vitest src --environment jsdom",
     "test:e2e": "playwright test"
   },
   "dependencies": {
